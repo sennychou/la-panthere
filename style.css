@@ -289,6 +289,7 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    display: block;
 }
 
 .navbar-brand {
@@ -703,6 +704,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display:block
 }
 
 h2 {
@@ -743,6 +745,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    display: block;
 }
 
 .avatar {
@@ -1091,6 +1094,7 @@ h4 {
     .social{
         display: flex;
         justify-content: space-around;
+        flex-direction: row;
     }
     div{
         margin-top:11px
