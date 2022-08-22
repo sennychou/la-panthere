@@ -851,12 +851,14 @@ h4 {
 {
     font-size: 22px;
     width: 75%;
+    display:inline-flex;
 }
 
 .realisation
 {
     font-size: 22px;
     width: 45%;
+    display: inline-flex;
 }
 
 .role
@@ -1075,6 +1077,26 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .realisation{
+        width: 75%;
+    }
+    .portfolio-thumb {
+        display: inline;
+    }
+    a[data-lightbox]:hover::before {
+        margin-left:150px;
+    }
+    .social{
+        display: flex;
+        justify-content: space-around;
+    }
+    div{
+        margin-top:11px
+    }
+    #form_1{
+        text-align: left;
     }
 }
 
